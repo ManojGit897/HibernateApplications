@@ -36,6 +36,7 @@ public class SaveObjectTest {
 		   System.out.println("session object class name::"+ses.getClass());
 		  //create Entity  object to save with Db s/w
 		prod=new Product();
+		prod.setPid(101);
 		 prod.setPname("chair");
 		
 		  try {
